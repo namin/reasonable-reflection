@@ -10,3 +10,4 @@ A Rational Defense of Reasonable Reflection (LICS'26 Keynote)
 - [defeater](https://github.com/namin/defeater)
 - [reviser](https://github.com/namin/reviser)
 - [sc-mini/llm](https://github.com/namin/sc-mini)
+- verified discovery system
