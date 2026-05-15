@@ -9,8 +9,8 @@ A Rational Defense of Reasonable Reflection (LICS'26 Keynote)
 - [**lean-sage**](https://github.com/namin/lean-sage): the synthesis — lean-grey's multi-level reflective tower over lean-green's heap/closure/`set!` substrate, with a kernel-checked proof-bearing admission gate on top: each `base-apply` modification carries its own CE proof, and admissions compose across the tower
 - [lean-emerald](https://github.com/namin/lean-emerald): pedagogical rebuild of lean-sage's proof-bearing CE substrate, 5x smaller
 - [climbing-calc](https://github.com/namin/climbing-calc): type-level proof-bearing admission for a total-functions calculator — Lean's type checker *is* the schema/operator gate
-- [climber](https://github.com/namin/climber): gate governs **the right to extend the proof system itself** (sound axiom-schema extensions, Beklemishev-shaped)
-- [defeater](https://github.com/namin/defeater): non-monotonic dual of climber — gate admits **sound exception schemas**, governing what gets withdrawn rather than added
-- [reviser](https://github.com/namin/reviser): gate checks **rationality of belief-revision operators**, not the beliefs themselves
+- [climber](https://github.com/namin/climber): gate governs the right to extend the proof system itself (sound axiom-schema extensions, Beklemishev-shaped)
+- [defeater](https://github.com/namin/defeater): non-monotonic dual of climber — gate admits sound exception schemas, governing what gets withdrawn rather than added
+- [reviser](https://github.com/namin/reviser): gate checks rationality of belief-revision operators, not the beliefs themselves
 - [sc-mini/llm](https://github.com/namin/sc-mini): minimal positive supercompiler, forked with sound LLM-proposed rewrites
-- verified discovery system: gate over **discovery of theorems and heuristics**
+- verified discovery system: gate over discovery of theorems and heuristics
