@@ -15,5 +15,5 @@ A Rational Defense of Reasonable Reflection (LICS'26 Keynote)
 - [climber](https://github.com/namin/climber): gate governs the right to extend the proof system itself (sound axiom-schema extensions, Beklemishev-shaped)
 - [defeater](https://github.com/namin/defeater): non-monotonic dual of climber — gate admits sound exception schemas, governing what gets withdrawn rather than added
 - [reviser](https://github.com/namin/reviser): gate checks rationality of belief-revision operators, not the beliefs themselves
-- [sc-mini/llm](https://github.com/namin/sc-mini): minimal positive supercompiler, forked with sound LLM-proposed rewrites
+- [sc-mini/llm](https://github.com/namin/sc-mini): minimal positive supercompiler extended with an LLM that proposes rewrites, each gated by a Lean kernel check (accepted only if Lean discharges the equivalence)
 - verified discovery system: gate over discovery of theorems and heuristics
