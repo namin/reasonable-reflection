@@ -16,4 +16,5 @@ A Rational Defense of Reasonable Reflection (LICS'26 Keynote)
 - [defeater](https://github.com/namin/defeater): non-monotonic dual of climber — gate admits sound exception schemas, governing what gets withdrawn rather than added
 - [reviser](https://github.com/namin/reviser): gate checks rationality of belief-revision operators, not the beliefs themselves
 - [sc-mini/llm](https://github.com/namin/sc-mini): minimal positive supercompiler extended with an LLM that proposes rewrites, each gated by a Lean kernel check (accepted only if Lean discharges the equivalence)
+- [analyzer-climber](https://github.com/namin/analyzer-climber): the gate governs *static-analysis knowledge* — an analyzer treats `clampIndex` as unknown (`⊤`) so an array-bounds proof fails, until it admits a certified abstract transfer for it (off-by-one rejected by `offByOneClamp_unsound`, `⊤` sound-but-useless, precise `[lo,hi]` sound-and-useful); one certified summary then verifies every later client with no new proof
 - verified discovery system: gate over discovery of theorems and heuristics
